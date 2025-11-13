@@ -155,10 +155,10 @@ ping 22.22.22.223
 1. Get the MAC Address for the Bridge connection
 VMWare > NetOps-PH Settings > NetAdapter (2, 3, & 4) > Advance > MAC Address
 
-| NetAdapter   | MAC Address      | VM Interface |
-| NetAdapter 2 | ___.___.___.___  | ens___       |
-| NetAdapter 3 | ___.___.___.___  | ens___       |
-| NetAdapter 4 | ___.___.___.___  | ens___       |
+| NetAdapter   | MAC Address        | VM Interface |
+| NetAdapter 2 | 00:0C:29:71:44:28  | ens192       |
+| NetAdapter 3 | 00:0C:29:71:44:32  | ens224       |
+| NetAdapter 4 | 00:0C:29:71:44:3C  | ens256       |
 
 <br>
 
@@ -173,7 +173,7 @@ ip -br link
 3. Modify Interface IP
 VMNet2:  192.168.102.6/24
 VMNet3:  11.11.11.100/27
-Bridged: 10.$#34T#.1.6/24
+Bridged: 10.22.1.6/24
 
 
 ~~~
